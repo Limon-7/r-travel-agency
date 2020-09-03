@@ -2,12 +2,12 @@
 
 ### Technology:
 
--   Materiaul UI
--   React Hook
--   React Router
--   Firebase Hosting
--   Flexboox
--   Resposive AF
--   grow/shrink Animation
--   CSS game
--   Date picker
+- Materiaul UI
+- React Hook
+- React Router
+- Firebase Hosting
+- Flexboox
+- React date picker
+- grow/shrink Animation
+- CSS game
+- Date picker

@@ -1,0 +1,7 @@
+.home__section {
+  display: flex;
+  padding: 30px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+}

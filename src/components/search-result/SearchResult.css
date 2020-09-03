@@ -1,0 +1,59 @@
+.serachResult {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid lightgray;
+}
+.serachResult:hover {
+  opacity: 0.8;
+}
+.serachResult__heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.serachResult > img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.serachResult__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.serachResult__info__top {
+  width: 40vw;
+}
+.serachResult__info__top > p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+.serachResult__info__top > h3 {
+  margin-top: 10px;
+  font-weight: 300;
+}
+.serachResult__info__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.serachResult__info__bottom__star {
+  display: flex;
+  align-items: center;
+}
+.serachResult__info__bottom__star > .serachResult__star {
+  color: red;
+}
+.serachResult__info__bottom__price {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+.serachResult__info__bottom__price > p {
+  text-align: right;
+}

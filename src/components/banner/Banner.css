@@ -1,0 +1,35 @@
+.banner {
+  height: 75vh;
+  background: url("https://gritdaily.com/wp-content/uploads/2019/11/Lyric-New-Orleans-3-Bed-3-Bath-Apartment.jpg")
+    center center;
+  position: relative;
+}
+
+.banner__info {
+  background: black;
+  color: white;
+  width: 300px;
+  padding: 25vh 50px 50px 40px;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+.banner__search--button {
+  background-color: white !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  font-weight: 900 !important;
+}
+
+.banner__info > button {
+  margin-top: 20px;
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  font-weight: 600;
+}
+.banner__info > button:hover {
+  background-color: #fff;
+  color: #ff7779;
+}
