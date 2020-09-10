@@ -35,3 +35,6 @@
   width: 15vw;
   margin-right: 80px;
 }
+.header__right > .MuiSvgIcon-root {
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.errroPage {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem 0;
+  letter-spacing: 0.2ch;
+}
+.errroPage > h1 {
+  font-size: 2.5rem;
+}
+.errroPage > div {
+  width: 10rem;
+  height: 5px;
+  background: #af9a7d;
+  margin: 1.7rem auto;
+}
+.errroPage > p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.errroPage > button {
+  margin-top: 20px;
+  background-color: #ff512f;
+  color: white;
+  text-transform: inherit;
+  font-weight: 600;
+}
+.errroPage > button:hover {
+  background-color: #fff;
+  color: #ff7779;
+}
+@media screen and (min-width: 576px) {
+  .errroPage {
+    padding: 2rem 3rem;
+  }
+  .errroPage h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .errroPage {
+    padding: 2rem 6rem;
+  }
+  .errroPage h1 {
+    font-size: 4rem;
+  }
+}
